@@ -1,0 +1,20 @@
+[ignore]
+
+[include]
+
+[libs]
+
+[options]
+# flow scan files with the following extension
+module.file_ext=.es6
+module.file_ext=.js
+module.file_ext=.json
+
+# flow resolve import/require syntax in these directories for type hints
+module.system.node.resolve_dirname=app/assets/javascripts
+module.system.node.resolve_dirname=vendor/assets/bower_components/underscore
+module.system.node.resolve_dirname=vendor/assets/bower_components/jquery/dist
+module.system.node.resolve_dirname=vendor/assets/bower_components/q
+
+[version]
+^0.38.0

@@ -1,0 +1,6 @@
+javascript:
+#  "application/require_stuff":
+#    external:
+#      - jquery
+
+

@@ -1,0 +1,45 @@
+{
+  "name": "work",
+  "version": "1.0.0",
+  "description": "Not very useful, just better than none",
+  "main": "index.js",
+  "directories": {
+    "doc": "doc"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "flow": "flow; test $? -eq 0 -o $? -eq 2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Spacious-International/spacious-rails.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Spacious-International/spacious-rails/issues"
+  },
+  "homepage": "https://github.com/Spacious-International/spacious-rails#readme",
+  "devDependencies": {
+    "babel-eslint": "^7.1.1",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-stage-2": "^6.18.0",
+    "babelify": "^7.3.0",
+    "browserify": "^13.1.1",
+    "browserify-incremental": "^3.1.1",
+    "eslint": "^3.14.0",
+    "eslint-plugin-flowtype": "^2.30.0",
+    "flow-bin": "^0.38.0",
+    "stylelint": "7.6.0",
+    "bower": "^1.8.0"
+  },
+  "browser": {
+    "underscore": "./vendor/assets/bower_components/underscore/underscore.js",
+    "jquery": "./vendor/assets/bower_components/jquery/dist/jquery.js",
+    "q": "./vendor/assets/bower_components/q/q.js"
+  },
+  "dependencies": {
+    "babel-plugin-transform-flow-strip-types": "^6.22.0",
+    "browserify-shim": "^3.8.13"
+  }
+}

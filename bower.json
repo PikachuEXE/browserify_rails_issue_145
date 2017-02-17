@@ -1,0 +1,17 @@
+{
+  "lib": {
+    "name": "spacious-rails.lib-assets",
+    "dependencies": {
+    }
+  },
+  "vendor": {
+    "name": "spacious-rails.vendor-assets",
+    "dependencies": {
+      "jquery": "~1.11",
+
+      "q": ">= 1.0.1 < 2.0",
+
+      "underscore": ">= 1.7.0"
+    }
+  }
+}
