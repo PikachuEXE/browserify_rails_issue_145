@@ -2,6 +2,6 @@
 
 import $ from "jquery";
 
-console.log("module c");
-
-export default $.version
+export default {
+  name: "moduleC",
+};

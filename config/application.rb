@@ -21,6 +21,7 @@ module RailsSprocketsIssue420
     # config.i18n.default_locale = :de
 
     config.assets.precompile +=[
+      "base.js",
       "application.js",
     ]
 

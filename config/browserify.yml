@@ -1,6 +1,12 @@
 javascript:
-#  "application/require_stuff":
-#    external:
-#      - jquery
+  "base":
+    require:
+      - jquery
+  "modules/index":
+    external:
+      - jquery
+  "pages/index":
+    external:
+      - jquery
 
 
