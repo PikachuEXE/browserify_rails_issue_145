@@ -1,5 +1,5 @@
 javascript:
-  "base":
+  "application/require_vendor":
     require:
       - jquery
   "modules/index":
@@ -8,5 +8,3 @@ javascript:
   "pages/index":
     external:
       - jquery
-
-
